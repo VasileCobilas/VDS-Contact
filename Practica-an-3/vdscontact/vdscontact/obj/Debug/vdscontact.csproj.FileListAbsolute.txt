@@ -1,0 +1,12 @@
+E:\Practica-an-3\vdscontact\vdscontact\bin\Debug\vdscontact.exe.config
+E:\Practica-an-3\vdscontact\vdscontact\bin\Debug\vdscontact.exe
+E:\Practica-an-3\vdscontact\vdscontact\bin\Debug\vdscontact.pdb
+E:\Practica-an-3\vdscontact\vdscontact\obj\Debug\vdscontact.Properties.Resources.resources
+E:\Practica-an-3\vdscontact\vdscontact\obj\Debug\vdscontact.Vdscontact.resources
+E:\Practica-an-3\vdscontact\vdscontact\obj\Debug\vdscontact.csproj.GenerateResource.Cache
+E:\Practica-an-3\vdscontact\vdscontact\obj\Debug\vdscontact.csproj.CoreCompileInputs.cache
+E:\Practica-an-3\vdscontact\vdscontact\obj\Debug\vdscontact.exe
+E:\Practica-an-3\vdscontact\vdscontact\obj\Debug\vdscontact.pdb
+E:\Practica-an-3\vdscontact\vdscontact\obj\Debug\vdscontact.csprojResolveAssemblyReference.cache
+E:\Practica-an-3\vdscontact\vdscontact\obj\Debug\vdscontact.registration.resources
+E:\Practica-an-3\vdscontact\vdscontact\obj\Debug\vdscontact.login.resources
