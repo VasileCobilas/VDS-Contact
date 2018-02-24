@@ -60,7 +60,7 @@
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.panel1.Location = new System.Drawing.Point(0, 532);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(397, 1);
+            this.panel1.Size = new System.Drawing.Size(416, 1);
             this.panel1.TabIndex = 0;
             // 
             // panel2
@@ -70,7 +70,7 @@
             this.panel2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(397, 1);
+            this.panel2.Size = new System.Drawing.Size(416, 1);
             this.panel2.TabIndex = 1;
             // 
             // panel3
@@ -78,7 +78,7 @@
             this.panel3.BackColor = System.Drawing.Color.DarkMagenta;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panel3.Location = new System.Drawing.Point(396, 1);
+            this.panel3.Location = new System.Drawing.Point(415, 1);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1, 531);
             this.panel3.TabIndex = 1;
@@ -252,6 +252,7 @@
             this.txtBoxPassword.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.txtBoxPassword.Location = new System.Drawing.Point(193, 401);
             this.txtBoxPassword.Name = "txtBoxPassword";
+            this.txtBoxPassword.PasswordChar = '*';
             this.txtBoxPassword.Size = new System.Drawing.Size(169, 30);
             this.txtBoxPassword.TabIndex = 14;
             // 
@@ -274,6 +275,7 @@
             this.txtBoxConfirmPassword.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.txtBoxConfirmPassword.Location = new System.Drawing.Point(193, 454);
             this.txtBoxConfirmPassword.Name = "txtBoxConfirmPassword";
+            this.txtBoxConfirmPassword.PasswordChar = '*';
             this.txtBoxConfirmPassword.Size = new System.Drawing.Size(169, 30);
             this.txtBoxConfirmPassword.TabIndex = 16;
             // 
@@ -283,7 +285,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(1, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(397, 110);
+            this.pictureBox1.Size = new System.Drawing.Size(416, 110);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
@@ -294,7 +296,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkBlue;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(397, 533);
+            this.ClientSize = new System.Drawing.Size(416, 533);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtBoxConfirmPassword);
@@ -319,6 +321,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "registration";
             this.Text = "Registration";
+            this.Load += new System.EventHandler(this.registration_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

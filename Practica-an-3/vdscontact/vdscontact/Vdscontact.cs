@@ -28,18 +28,21 @@ namespace vdscontact
 
             //Inserting Data into Database using the method we created in last stepp
             bool success = c.Insert(c);
+
             if (success == true)
             {
                 //Successfully inserted
                 MessageBox.Show("New Contact Successfully Inserted");
+               
                 //Call the clear methodhere
                 Clear();
 
             }
+            
             else
             {
                 //Failed to add contact
-                MessageBox.Show("Failed to add new contacct . Try again");
+                
             }
             //Load Data on Data Gridview
             DataTable dt = c.Select();
@@ -153,6 +156,14 @@ namespace vdscontact
             DataTable dt = new DataTable();
             sda.Fill(dt);
             dvgContactList.DataSource = dt;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            login fm = new login();
+            fm.Show();
+
+            this.Close();
         }
 
         
